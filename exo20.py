@@ -1,8 +1,8 @@
 adresses_ip=["192.168.0.1","10.0.0.1","172.16.0.1","200.100.50.1","169.254.0.1"]
 classses_ip={
-    "192.168.0.1":"classe A",
-    "10.0.0.1":"classe B",
-    "172.16.0.1":"classe C",
+    "192.168.0.1":"classe C",
+    "10.0.0.1":"classe A",
+    "172.16.0.1":"classe B",
     "200.100.50.1":"adress ip publique",
     "169.254.0.1":"adresse ip de lien local (apipa)"
 }
@@ -46,5 +46,6 @@ for cle , values in classses_ip.items():
        d+=1
     
 print(d)
+
 
 
